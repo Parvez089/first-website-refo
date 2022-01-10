@@ -1,9 +1,95 @@
 body {
   font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #fff;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+/*navbar styling*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+  background: blueviolet;
+  font-family: "ubuntu", sans-serif;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+.white {
+  color: #fff;
+}
+
+/* home section styling */
+
+/*.home {
+  display: flex;
+  background: url("banner.jpg") no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-width: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}*/
+.home .max-width {
+  padding-bottom: 20px;
+  padding-top: 250px;
+  padding-left: 40px;
+}
+.home .home-content .text-1 {
+  font-size: 27px;
+}
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+.home .home-content .text-3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+  color: crimson;
+  font-weight: 500;
+}
+
+.white-icon {
+  font-size: 25px;
+}
+.white-icon-2 {
+  font-size: 25px;
+  color: black;
 }
